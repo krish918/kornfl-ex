@@ -1,0 +1,461 @@
+  
+
+.kornflex_body
+			{
+			 background-color: #ffffff;
+			 overflow-y: scroll;
+			 }
+	#no_js
+			{
+			position: absolute;
+			top:0px;left:0px;
+			width:1007px;
+			padding:15px 0 15px 0;
+			 font-family: Segoe UI,"lucida sans unicode",tahoma,sans-serif;
+			 background-color: #F8D908;
+			 border-bottom:solid 2px #ffca79;
+			 color:red;
+			 font-weight:bold;
+			 text-align:center;
+			 }
+.image_container
+			{
+			position: absolute;
+			top:30px;
+			left:460px;
+			width:530px;
+			height:357px;
+			background-color: white;
+			box-shadow: 0 0 6px #505050;
+		   -o-box-shadow: 0 0 6px #505050;
+		   -moz-box-shadow: 0 0 6px #505050;
+		   -ms-box-shadow: 0 0 6px #505050;
+		   -webkit-box-shadow: 0 0 6px #505050;
+			}
+.hidden_content2{
+            position: absolute;
+            top:25px;
+			left: 470px;
+			width:400px;
+			font-family:"Segoe UI", calibri, candara, tahoma, sans-serif;
+			 line-height: 110%;
+			 color:#501010;
+			}
+				 #select_gender{
+	 	margin-top:124px;
+	 	margin-left:210px;
+	 	width:90px;
+	 	height:22px;
+	 	border-style:none;
+	 	border-style:solid;
+	 	font-family:'Segoe UI';
+	 	font-size:15px;
+	 	outline: none;
+	 }
+			#dummy_fn
+				{
+					top:16px;
+				}
+			#dummy_em {top:58px;}	
+			#dummy_pwd {top:99px;}
+			#dummy_camp {top:144px;}
+			#dummy_gender {top:193px;}
+			
+			#agree_terms {
+			position:absolute;
+			font-size:10px;
+			font-family:Segoe UI;
+			bottom:-40px;
+		 
+		
+		}	
+					#kf_reg_button
+			{
+			position:absolute;
+			bottom:-15px;
+			right:-90px;	
+			
+			background-color:transparent;
+			font-size:110px;	
+			color:#AA1520;
+			border:none;
+			}
+		#kf_reg_button:hover{
+			 color:#E51510;
+			 cursor:pointer;
+		}	
+
+	#hid_contnt2_head {
+                      font-size: 29px;
+					  padding-bottom:10px;
+					  border-style: double;
+					  border-width: 0 0 4px 0;
+					  border-color:#204020;
+					  }
+		
+.image_caption
+			{
+			position:absolute; 
+			top:10px;
+			right:10px;
+			font-family:"Segoe UI", calibri, candara, tahoma, sans-serif;
+			font-size:20px;
+			color:black;
+			text-align: right;
+			}
+#imageHeader
+			{
+			position:absolute; bottom:10px; right:30px;
+			font-size: 10px;
+			font-family:"Segoe UI", calibri, candara, tahoma, sans-serif;
+			color:white;
+			}
+.top_panel
+				{
+				position:absolute;
+				top: 0px;
+				left:0px;
+				height:13px;
+				width:1007px;
+				background-color:white;
+				}
+.upper_panel
+				{
+				position:absolute;
+				top: 0px;
+				left: 0px;
+				width:1007px;
+				height:360px;
+				background-color: #E14002;
+				background-image: -webkit-linear-gradient(top right, #FF6E01 0%, #E14002 100%);
+				background-image: -o-linear-gradient(top right,  #FF6E01 0%, #E14002 100%);
+			   
+				background-image: -moz-linear-gradient(top right, #FF6E01 0%, #E14002 100%);
+				background-image: -ms-linear-gradient(top right, #FF6E01 0%, #E14002 100%);
+				background-image: -webkit-gradient(linear, right top, left bottom, color-stop(0,#FF6E01), color-stop(1,#E14002));
+				background-image: linear-gradient(to bottom left, #FF6E01 0%, #E14002 100%);
+				background-color: #E14002;
+				box-shadow: 0 0 3px 1px #505050;
+				-moz-box-shadow: 0 0 3px 1px #505050;
+				-o-box-shadow: 0 0 3px 1px #505050;
+				-webkit-box-shadow: 0 0 3px 1px #505050;
+				-ms-box-shadow: 0 0 3px 1px #505050;
+				 
+				overflow: visible;
+				}
+.middle_panel
+				{
+				position: absolute;
+				top:0px;
+				left:0px;
+				width:1007px;
+				height:540px;
+				background-color: #eeeeff;
+				border-style: dotted;
+				border-width: 0 0 1px 0;
+				border-color: #aaaaaa;
+				}
+
+		#kfTagline
+				{
+				position:absolute;
+				top:50px;
+				left:40px;
+				width:400px;
+				font-family: cambria,"Segoe UI",calibri, "Microsoft Sans Serif", candara, tahoma, sans-serif;
+				}
+		#linkContainer
+				{
+				border-style:solid;
+				border-width: 1px 0 0 0;
+				border-color:#E14002;
+				margin-top: 15px;padding-top: 10px;
+				}
+.std_link
+				{
+				
+				font-size:15px;
+				font-family: calibri,"Segoe UI",cambria, "Microsoft Sans Serif", candara, tahoma, sans-serif;
+				color:white;
+				text-decoration:none;
+				
+				}
+		.std_link:hover
+				{
+				font-weight:bold;
+				}
+.signin_box
+				{
+				position: absolute;
+			    left:40px;
+				width:110px;
+				height:160px;
+				font-family: calibri, cambria, candara, "Microsoft Sans Serif", sans-serif;
+				font-size:36px; color:white;
+				 bottom:10px; 
+				 background-color: #9BC11B;
+				background-image:-webkit-linear-gradient(left, #71A823 0%, #9BC11B 100%);
+				background-image:-moz-linear-gradient(left, #71A823 0%, #9BC11B 100%);
+				background-image:-o-linear-gradient(left, #71A823 0%, #9BC11B 100%);
+				background-image:-ms-linear-gradient(left, #71A823 0%, #9BC11B 100%);
+				background-image:-webkit-gradient(linear, left, right, color-stop(0, #71A823), color-stop(1,#9BC11B));
+			     filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1, startColorstr=#71A823, endColorstr=#9BC11B);
+				background-image:linear-gradient(to right, #71A823 0%, #9BC11B 100%);
+				
+				box-shadow: 0 0 6px #404040;
+				-moz-box-shadow: 0 0 6px #404040;
+				-o-box-shadow: 0 0 6px #404040;
+				-ms-box-shadow: 0 0 6px #404040;
+				-webkit-box-shadow: 0 0 6px #404040;
+				
+			 
+				}
+	.input_box  {
+				position: absolute;
+				height:100px; width:280px;
+				bottom:10px;
+				font-family: "Segoe UI", calibri, cambria, "Microsoft Sans Serif", sans-serif;
+				font-size:17px;
+				border-style: dotted;
+				border-width: 0 2px 0 0;
+				border-color: #aaaaaa;
+				padding-top:30px;
+				}
+	#your_email{
+				left: 180px;
+				}
+	.std_input
+				{
+				width:320px;
+				padding-left:2px;
+				height:29px;
+				border: solid 1px #aaBBaa;
+				outline:none;
+				font-size: 18px;
+				color:#808080;
+				font-style: italic;
+				font-family: cambria,"Microsoft Sans Serif", sans-serif;
+				-webkit-box-shadow: 0 0 7px #dddddd;
+				-moz-box-shadow: 0 0 7px #dddddd;
+				-o-box-shadow: 0 0 7px #dddddd;
+				-ms-box-shadow: 0 0 7px #dddddd;
+				box-shadow: 0 0 7px #dddddd;
+				}
+	#your_password 
+				{
+				left: 500px;
+				}
+				#inpt_email {width:250px;}
+				#inpt_passwd {width:250px;}
+	#small_down_arrow
+				{
+				position: absolute;
+				display:inline;
+				margin-top:11px; margin-left:12px;
+				width: 0; height:0;
+				border-left: solid transparent 5px;
+				border-right: solid transparent 5px;border-bottom: solid transparent 5px;
+				border-top: solid black 5px;
+				}
+	.btn_container
+				{
+				position: absolute;
+			 left:798px;
+			   bottom:10px;
+				font-family:"Segoe UI",calibri, "Microsoft Sans Serif", tahoma, sans-serif;
+				font-size:12px;
+				text-align:center;
+				width:200px;
+				}
+		.btn
+				{
+				background-color: #308DCF;
+				border: solid 2px #1969c5;
+				-o-box-shadow: inset 0 0 9px #1A54aa;
+				-moz-box-shadow: inset 0 0 9px #1A54aa;
+				-ms-box-shadow: inset 0 0 9px #1A54aa;
+				-webkit-box-shadow: inset 0 0 9px #1A54aa;
+				box-shadow: inset 0 0 9px #1A54aa;
+				color:white;
+				text-align:center;
+				font-size: 20px;
+				font-weight:bold;
+				font-family: candara,"Microsoft Sans Serif", sans-serif;
+				cursor: pointer;
+				}
+		#signin_btn
+				{
+				width:150px;
+				height: 40px;
+				}
+	.signin_system_container
+				{
+				position:absolute;
+				bottom:0px;
+			 
+				}
+		.logo_container
+				{
+	            position:absolute;
+				bottom:-132px;
+				left: 320px;		 
+				}
+		.logo_container2
+				{
+	            position:absolute;
+				bottom:-132px;
+				right: 30px;		 
+				}		
+	.bottom_links_container
+				{
+				position : absolute;
+				bottom : -80px;
+		 
+				}
+				#loader_submit
+				{
+					position:absolute;
+				top:140px;
+					left:205px;	 
+				}
+	.std_kf_link
+				{
+				font-family: "Segoe UI", calibri,"lucida sans unicode", tahoma,sans-serif;
+				font-size:15px;
+				color: #aaaaff;
+				text-decoration: none;
+				}	
+	.std_kf_link:hover
+				{
+				color: #505050;
+				}
+	#register_link
+				{margin-left: 50px;
+				}
+	#help_link  {margin-left: 70px;}
+		#release_link {margin-left: 70px;}
+		#blog_link {margin-left: 70px;}
+		#ahens_link{margin-left: 70px;}
+		.ahens_copyright
+				{
+				position:absolute;
+				bottom : -144px;
+				font-size:11px;
+				right:300px;
+				color:#909090;
+				font-family:"Segoe UI", tahoma, sens-serif;
+				padding-bottom:6px;
+				}
+	.hidden_content
+				{
+				position:absolute; 
+				top:78px;
+				left:40px;
+				width:950px;
+				height:270px;
+				border-style:ridge;
+				border-width: 0 0 1px 0;
+				border-color: #aaaaaa;
+				font-family: "Segoe UI", calibri,cambria,candara, tahoma, sans-serif;
+				color: #707070; 
+				}
+			#learn_more_head
+				{
+				  position: absolute; 
+				  top:30px;
+				  left:0px;
+				  width:130px;
+                  height: 220px;
+				  border-style : dashed;
+                  border-width: 0 2px 0 0;
+				  border-color: #cccccc;
+					font-size: 30px;
+					padding-right: 15px;
+					padding-top: 5px;					
+					}
+			#learn_more_head2
+				{
+				position: absolute;
+				top: 30px;
+				left:180px;
+			    font-weight: bold;
+				font-family: "Segoe UI", calibri,cambria,candara, tahoma, sans-serif;
+				font-size: 20px;
+				color: #505050;
+				}
+			#learn_more_content
+				{
+				position: absolute;	
+				top:75px;
+				left: 180px;
+				color: #303030;
+				line-height: 150%;
+				}
+		.stopper_dialog
+				{
+				position:fixed;
+				top: 50px;
+				left:220px;
+				width:510px;
+				height:260px;
+				padding:20px;
+				 font-family:"Segoe UI", calibri,cambria,candara,"lucida sans unicode", tahoma, sans-serif;
+				 	font-size:15px;
+				background-color: #f1f1f1;
+				border: solid 4px #67adff;
+			    text-align: center;
+				box-shadow: inset 0 0 12px #303030;
+				-moz-box-shadow: inset 0 0 12px #303030;
+				-ms-box-shadow: inset 0 0 12px #303030;
+				-o-box-shadow: inset 0 0 12px #303030;
+				-webkit-box-shadow: inset 0 0 12px #303030;
+				
+				border-radius:10px;
+				-moz-border-radius:10px;
+				-ms-border-radius:10px;
+				-webkit-border-radius:10px;
+				-o-border-radius:10px;
+			    visibility:hidden;
+				}
+		.behind_dialog
+			{
+				position:fixed;
+				top: 50px;
+				left:220px;
+				width:550px;
+				height:300px;
+				background-color: #F2F2F2;
+				border: solid 4px #67adff;
+			box-shadow:  0 0 86px #303030;
+			-moz-box-shadow:  0 0 86px #303030;
+			-o-box-shadow:  0 0 86px #303030;
+			-ms-box-shadow:  0 0 86px #303030;
+			-webkit-box-shadow:  0 0 86px #303030;
+			visibility:hidden;
+			}
+		#dialog_head
+			{
+		 
+			
+			 font-size:23px;
+			 padding-bottom:10px;
+			 border-style: solid;
+			 border-width: 0 0 2px 0;
+			 border-color: #67ccff;
+			 }
+		#msg_destroy, #msg_destroy2
+			{
+			position: absolute;
+			right:7px;
+			bottom:7px;
+			font-size:11px;
+			color:#808080;
+			}
+		#recover_pass
+			{
+			text-decoration:none;
+			color:black;
+			}
+		#recover_pass:hover
+			{color:blue;text-decoration:underline;
+			}
