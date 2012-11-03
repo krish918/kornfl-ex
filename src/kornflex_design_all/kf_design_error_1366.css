@@ -1,0 +1,157 @@
+#border_left
+	{
+	position:absolute;
+	top:20px;left:120px;
+	height:480px;
+	border-style: dashed;
+	border-width: 0 0 0 1px;
+	border-color: #aaaaaa;
+	}
+#border_right
+	{
+    position:absolute;
+	top:20px;left:1220px;
+	height:480px;
+	border-style: dashed;
+	border-width: 0 0 0 1px;
+	border-color: #aaaaaa;
+	}
+#border_top
+	{
+    position:absolute;
+	top:50px;left:75px;
+	width:1190px;
+	border-style: dashed;
+	border-width: 1px 0 0 0;
+	border-color: #aaaaaa;
+	}	
+#border_bottom
+	{
+    position:absolute;
+	top:470px;left:75px;
+	width:1190px;
+	border-style: dashed;
+	border-width: 1px 0 0 0;
+	border-color: #aaaaaa;
+	}
+.text_container
+	{
+	position: absolute;
+	top: 100px;
+	left:247px;
+	width: 840px;
+	height: 320px;
+	border: solid 2px #58B8FF;
+	box-shadow: 0 0 15px #999999;
+	-ms-box-shadow: 0 0 15px #999999;
+	-moz-box-shadow: 0 0 15px #999999;
+	-webkit-box-shadow: 0 0 15px #999999;
+	-o-box-shadow: 0 0 15px #999999;
+	font-family: "Segoe UI", calibri, cambria, "lucida sans unicode", tahoma, sans-serif;
+	}
+.error_head
+	{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width: 184px;
+	height:304px;
+	background-color: #58B8FF;
+	border-radius: 0 40px 0px 0;
+    -ms-border-radius: 0 40px 0px 0;
+	-moz-border-radius: 0 40px 0px 0;
+	-o-border-radius: 0 40px 0px 0;
+	-webkit-border-radius: 0 40px 0px 0;
+	
+	font-size:50px;
+	padding:8px;
+	color: white;
+	}
+.error_content
+		{
+		position: absolute;
+		top:20px;
+		left:220px;
+		font-size: 15px;
+	     
+		line-height:220%;
+		}
+#pwd_recover
+			{top: 0px;}
+#lost_pwd
+			{
+			font-family: Segoe UI,"lucida sans unicode",tahoma,sans-serif;
+			font-size: 37px;
+			}
+		#pwd_rc {font-weight: normal;}
+    #step { font-weight:bold;}		
+
+.notFound {
+			overflow-y: scroll; 
+			background-image: -webkit-linear-gradient(top right, #205B9C 0%, #4AA2D8 100%);
+			background-image: -moz-linear-gradient(top right, #205B9C 0%, #4AA2D8 100%);
+			background-image: -o-linear-gradient(top right, #205B9C 0%, #4AA2D8 100%);
+			background-image: -ms-linear-gradient(top right, #205B9C 0%, #4AA2D8 100%);
+			background-image: -webkit-gradient(linear, right top, left bottom, color-stop(0,#205B9C), color-stop(1,#4AA2D8));
+			background-image: linear-gradient(to bottom left, #205B9C 0%, #4AA2D8 100%);
+			background-color: #205B9C;
+			color:white;}
+	.a_404_dialog
+			{
+			position: absolute;
+			top:40px;
+			left:60px;
+			font-size: 40px;
+			font-family: Segoe UI,"lucida sans unicode",tahoma,sans-serif;
+			font-weight: bold;
+			border-style: solid;
+			border-width: 0 0 2px 0;
+			border-color: #404040;
+			width: 300px;
+			padding:20px;
+			}
+	.subTitle
+			{
+			position: absolute;
+			top:270px;
+			left: 60px;
+			width: 600px;
+			padding:20px;
+			font-family:calibri, Segoe UI,"lucida sans unicode",tahoma,sans-serif;
+			font-size:29px;color:black;
+			}
+	.text_content
+			{
+				position: absolute;
+				top: 310px;
+				left:60px;
+				width:600px;
+				padding:20px;
+				font-family:"Segoe UI","lucida sans unicode",tahoma,sans-serif;
+				line-height: 220%;
+				word-spacing: 5px;
+				color:black;
+			}
+	#ahens_copyright
+			{
+			 position: absolute; 
+			 top:580px; left:950px;
+			 font-family: Segoe UI,"lucida sans unicode",tahoma,sans-serif;
+			 font-size:17px;
+			 }
+
+   #emailnotfound
+			{
+			position: absolute;
+			top:0px;left:0px;
+			width:1349px;
+			padding:15px 0 15px 0;
+			 font-family: Segoe UI,"lucida sans unicode",tahoma,sans-serif;
+			 background-color: #F8D908;
+			 border-bottom:solid 2px #ffca79;
+			 color:red;
+			 font-weight:bold;
+			 text-align:center;
+			 
+			 }
+	#completed { font-weight:bold;}		 
