@@ -14,13 +14,13 @@
    See the License for the specific language governing permissions and
    limitations under the License.
    */
-  $con= mysql_connect("127.0.0.1","<db-name>","<db-password>");
+  $con= mysql_connect("127.0.0.1","<db-username>","<db-password>");
   if(!$con)
     {
        header("location:http://kf.ahens.com/error/?conerror=1");
 	   exit;
 	}
-  mysql_select_db("ahenskorn918",$con);
+  mysql_select_db("<db-name>",$con);
   
   session_start();
   $indiantime = time()+45000;
