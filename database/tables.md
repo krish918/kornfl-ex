@@ -281,7 +281,7 @@ Here is the **list and schema** of all the tables
 ## Second Server
 
 Second server contains all the information matrix of stone. It is relatively smaller and less busy
-server than the first. ** Check the second markdown file** in this directory.
+server than the first. **Check the second markdown file** in this directory.
 
 
 > Copyright 2012 Krishna Murti
