@@ -97,13 +97,13 @@ Here is the **list and schema** of all the tables
   <tr>
  <th> profileSaved </th><th> accountCreated </th><th> lastIP </th><th> lastUserInfo </th><th> emailHidden </th><th> timeSpent </th>  <th> live </th>  <th> feedback </th> </tr>
  <tr> 
- <td> tinyint(1) </td> <td> varchar(40) </td><td> varchar(17) </td><td> varchar(255) </td><td> int(1) </td><td> int(20) </td><td> int(1) </td>  </tr>
+ <td> tinyint(1) </td> <td> varchar(40) </td><td> varchar(17) </td><td> varchar(255) </td><td> int(1) </td><td> int(20) </td><td> int(1) </td>  <td> int(1) </td>  </tr>
 </table>
 
 <table>
   <tr >
   <th> notificationStat </th> <th> lastUpdateStat </th> <th> lastUpadate </th><th> invitation </th><th> activation </th><th> gender </th></tr>
-  <tr><td> int(1) </td>  <td> int(11) </td>  <td> varchar(40) </td> <td> int(11) </td> <td> int(2) </td><td> int(25) </td><td> varchar(14) </td> </tr>
+  <tr><td> int(11) </td>  <td> varchar(40) </td> <td> int(11) </td> <td> int(2) </td><td> int(25) </td><td> varchar(14) </td> </tr>
 </table>
 
 
@@ -219,19 +219,19 @@ Here is the **list and schema** of all the tables
 </table>
 
 <table>
-<tr><th> subject </th> <th> year </th> <th> dobDay </th> <th> dobMonth </th> <th> dobYear </th> <th> lastInstitute </th> <th> areaInterest </th> <th> fieldExpertise </th> <th> favoritePlace </th> </tr>
-<tr><td> tinytext </td> <td> varchar(10) </td> <td> varchar(3) </td> <td> varchar(10) </td> <td>  varchar(4) </td> <td > tinytext </td> <td> mediumtext </td> <td> mediumtext </td> <td> mediumtext </td> </tr>
+<tr><th> subject </th> <th> year </th> <th> dobDay </th> <th> dobMonth </th> <th> dobYear </th> <th> lastInstitute </th> <th> areaInterest </th> <th> fieldExpertise </th> </tr>
+<tr><td> tinytext </td> <td> varchar(10) </td> <td> varchar(3) </td> <td> varchar(10) </td> <td>  varchar(4) </td> <td > tinytext </td> <td> mediumtext </td> <td> mediumtext </td> </tr>
 </table>
 
 <table>
-<tr><th> profileStatement </th> <th>currentLearning </th> <th> currentReading </th> <th> q1 </th> <th> q2 </th> <th> q3 </th> <th> q4 </th> <th> q5 </th></tr>
-<tr><td> varchar(140) </td> <td> mediumtext </td>  <td> tinytext </td> <td> mediumtext </td> <td> mediumtext </td><td> mediumtext </td><td> mediumtext </td><td> mediumtext </td> </tr> 
+<tr> <th> favoritePlace </th> <th> profileStatement </th> <th>currentLearning </th> <th> currentReading </th> <th> q1 </th> <th> q2 </th> <th> q3 </th></tr>
+<tr><td> mediumtext </td> <td> varchar(140) </td> <td> mediumtext </td>  <td> tinytext </td> <td> mediumtext </td> <td> mediumtext </td><td> mediumtext </td></tr> 
 </table>
 
 
 <table>
- <tr> <th> projected </th> <th> ratings </th> <th> raters </th> <th> averageRatings </th> <th> rank </th> <th> peopleInterested </th></tr>
- <tr><td> int(1) </td> <td> int(11) </td> <td> int(11) </td> <td> float(2,1) </td> <td> int(11) </td> <td> int(11) </td> </tr>
+ <tr> <th> q4 </th> <th> q5 </th> <th> projected </th> <th> ratings </th> <th> raters </th> <th> averageRatings </th> <th> rank </th> <th> peopleInterested </th></tr>
+ <tr> <td> mediumtext </td><td> mediumtext </td> <td> int(1) </td> <td> int(11) </td> <td> int(11) </td> <td> float(2,1) </td> <td> int(11) </td> <td> int(11) </td> </tr>
 </table>
 
 ### profile_visit
