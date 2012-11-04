@@ -3,6 +3,9 @@
 It was last of our server, which was served exclusively for apptease, a quiz app at kornflex. It contains large amount of academic questions and is **rather queried very fastly** than any
 other server. I am presnting to you its whole structure. It has **5 tables**.
 
+- - -
+
+
 ## questionbase
 
 
@@ -66,7 +69,7 @@ other server. I am presnting to you its whole structure. It has **5 tables**.
 
 <table>
  <tr>
-   <th> recordID </th> <th> userID </th> <th> session </th> <th> score </th> <th> questionCount </th> <th> correctCount </th> <th> attemptCount </th>
+   <th> recordID </th> <th> userID </th> <th> session </th> <th> score </th> <th> questionCount </th> <th> correctCount </th><th> passCount</th> <th> attemptCount </th>
  </tr>
  <tr>
     <td> int(11) </td> <td> int(11) </td> <td> int(11) </td> <td> int(11) </td> <td> int(11) </td> <td> int(11) </td> <td> int(11) </td><td> int(11) </td> 
@@ -77,6 +80,7 @@ other server. I am presnting to you its whole structure. It has **5 tables**.
  <tr><th> timestamp </th> <th> sesssionField </th></tr>
  <tr><td> varchar(100) </td> <td> varchar(70) </td></tr>
 </table>
+
 
 
 > Copyright 2012 Krishna Murti
