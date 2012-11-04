@@ -8,18 +8,24 @@ This server contains most of the user data. **It contains 19 tables.**
 
 >90% of data and information required by Kornflex was served by the first server. We are not telling you the exact hostname of server due to security issue.
 
-Here is the list and schema of all the tables
+Here is the **list and schema** of all the tables
 
 ### activationData
 <table>
 
  <tr>
-  <th>activationID</th><th>name</th><th>Email</th><th>password</th><th>time</th><th>emailsentat</th><th>emailsentcount</th><th>userID</th><th>activationString</th><th>used</th><th>usedAt</th>
+  <th>activationID</th><th>name</th><th>Email</th><th>password</th><th>time</th>
  </tr>
  <tr>
-  <td> 09847 </td> <td>Chuck Norris</td> <td>chuck.is.not.on.ahens@ahens.com</td><td>7764ggRRSHH$$jhsjsms.sdjiFTS5678.std</td><td>12/12/12</td><td> 00:00</td><td>12/12/12 00:12</td><td> 213 </td> <td> 007 </td> <td>asdDFFDggs6733bbGSLLSnnshU524 </td> <td>12/12/12 00:24</td>
+  <td> 09847 </td> <td>Chuck Norris</td> <td>chuck.is.not.on.ahens@ahens.com</td><td>7764ggRRSHH$$jhsjsms.sdjiFTS5678.std</td><td>12/12/12</td>
  </tr>
 </table>
+
+<table>
+<tr><th>emailsentat</th><th>emailsentcount</th><th>userID</th><th>activationString</th><th>used</th><th>usedAt</th></tr>
+<tr><td> 00:00</td><td>12/12/12 00:12</td><td> 213 </td> <td> 007 </td> <td>asdDFFDggs6733bbGSLLSnnshU524 </td> <td>12/12/12 00:24</td></tr>
+</table>
+
 
 ### agreelist
 
@@ -40,7 +46,7 @@ Here is the list and schema of all the tables
     <th>appID</th><th>appName</th><th>appLink</th><th>appDescription</th><th>timestamp</th><th>totalSubscriptions</th>
    </tr>
    <tr>
-     <td>int(11)</td><td>varchar(100)</td><td>barchar(200)</td><td>text</td><td>varchar(100)</td><td>int(11)</td>
+     <td>int(11)</td><td>varchar(100)</td><td>varchar(200)</td><td>text</td><td>varchar(100)</td><td>int(11)</td>
    </tr>
 </table>
 
@@ -60,25 +66,46 @@ Here is the list and schema of all the tables
 
 <table>
  <tr>
-   <th>campusID</th><th>campusCode</th><th>campusName</th><th>Address1</th><th>Address2</th><th>City</th><th>State</th><th>Country</th><th>Estabslished</th><th>NetworkCount</th><th>projectionCount</th>
+   <th>campusID</th><th>campusCode</th><th>campusName</th><th>Address1</th><th>Address2</th><th>City</th><th>State</th><th>Country</th>
  </tr>
  <tr>
-  <td>int(11)</td><td>varchar(7)</td><td>varchar(400)</td><td>tinytext</td><td>tinytext</td><td>varchar(30)</td><td>varchar(35)</td><td>varchar(35)</td><td>int(4)</td><td>smallint(6)</td><td>smallint(6)</td>
+  <td>int(11)</td><td>varchar(7)</td><td>varchar(400)</td><td>tinytext</td><td>tinytext</td><td>varchar(30)</td><td>varchar(35)</td><td>varchar(35)</td>
  </tr>
 </table>
+
+<table>
+<tr>
+<th>Estabslished</th><th>NetworkCount</th><th>projectionCount</th></tr>
+<tr><td>int(4)</td><td>smallint(6)</td><td>smallint(6)</td></tr>
+</table>
+
 
 
 ### corn_users
  
 <table>
   <tr>
-    <th> userID </th> <th> userName </th> <th>   Email   </th>   <th> Password </th> <th> LoginCount </th> <th> LastLogin </th> <th> campusJoined </th> <th> profileProjected </th> <th> profileSaved </th><th> accountCreated </th><th> lastIP </th><th> lastUserInfo </th><th> emailHidden </th><th> timeSpent </th>  <th> live </th>  <th> feedback </th>  <th> notificationStat </th> <th> lastUpdateStat </th> <th> lastUpadate </th><th> invitation </th><th> activation </th><th> gender </th>
+    <th> userID </th> <th> userName </th> <th>   Email   </th>   <th> Password </th> <th> LoginCount </th> <th> LastLogin </th> <th> campusJoined </th> <th> profileProjected </th>
 
   </tr>
   <tr>
-     <td> int(11) </td> <td> varchar(23) </td> <td>   varchar(60)   </td>   <td> varchar(55) </td> <td> varchar(11) </td> <td> varchar(35) </td> <td> varchar(7) </td> <td> tinyint </td> <td> tinyint </td> <td> tinyint </td> <td> varchar(40) </td><td> varchar(17) </td><td> varchar(255) </td><td> int(1) </td><td> int(20) </td><td> int(1) </td>  <td> int(20) </td>  <td> int(1) </td>  <td> int(1) </td> <td> int(11) </td> <td> varchar(40) </td><td> int(11) </td><td> varchar(40) </td><td> int(11) </td> <td> int(2) </td><td> int(25) </td><td> varchar(14) </td>
+     <td> int(11) </td> <td> varchar(23) </td> <td>   varchar(60)   </td>   <td> varchar(55) </td> <td> varchar(11) </td> <td> varchar(35) </td> <td> varchar(7) </td> <td> tinyint </td> 
   </tr>
 </table>
+
+<table>
+  <tr>
+ <th> profileSaved </th><th> accountCreated </th><th> lastIP </th><th> lastUserInfo </th><th> emailHidden </th><th> timeSpent </th>  <th> live </th>  <th> feedback </th> </tr>
+ <tr> 
+ <td> tinyint </td> <td> tinyint </td> <td> varchar(40) </td><td> varchar(17) </td><td> varchar(255) </td><td> int(1) </td><td> int(20) </td><td> int(1) </td>  </tr>
+</table>
+
+<table>
+  <tr >
+  <th> notificationStat </th> <th> lastUpdateStat </th> <th> lastUpadate </th><th> invitation </th><th> activation </th><th> gender </th></tr>
+  <tr><td> int(20) </td>  <td> int(1) </td>  <td> int(1) </td> <td> int(11) </td> <td> varchar(40) </td><td> int(11) </td><td> varchar(40) </td><td> int(11) </td> <td> int(2) </td><td> int(25) </td><td> varchar(14) </td> </tr>
+</table>
+
 
 ### feedback (obsolete)
  
@@ -87,7 +114,7 @@ Here is the list and schema of all the tables
    <th>feedbackID </th> <th>feedback </th><th>suggestion </th><th>feedback2 </th>
   </tr>
   <tr>
-   <td>feedbackID </td> <td>feedback </td><td>suggestion </td><td>feedback2 </td> 
+   <td>int(11) </td> <td>varchar(100) </td><td>text</td><td>varchar(100)</td> 
   </tr>
 </table>
 
@@ -151,12 +178,22 @@ Here is the list and schema of all the tables
 
 <table>
    <tr>
-     <th> notificationID </th> <th> flakesID </th> <th> profileID </th> <th> raterID </th> <th> userID </th> <th> time </th> <th> author </th> <th> reader </th> <th> writer </th> <th> action </th> <th> stoneID </th> <th> commenter </th>
+     <th> notificationID </th> <th> flakesID </th> <th> profileID </th> <th> raterID </th> <th> userID </th> <th> time </th> <th> author </th> <th> reader </th> <th> writer </th> <th> action </th> 
    </tr>
    <tr>
-      <td> int(11) </td>  <td> int(11) </td> <td> int(11) </td> <td> int(11) </td> <td> int(11) </td> <td> varchar(35) </td> <td> int(11) </td> <td> int(11) </td> <td> int(11) </td> <td> int(1) </td> <td> int(11) </td> <td> int(11) </td>
+      <td> int(11) </td>  <td> int(11) </td> <td> int(11) </td> <td> int(11) </td> <td> int(11) </td> <td> varchar(35) </td> <td> int(11) </td> <td> int(11) </td> <td> int(11) </td> <td> int(1) </td> 
    </tr>
 </table>
+
+<table>
+ <tr>
+  <th> stoneID </th> <th> commenter </th>
+ </tr>
+ <tr>
+  <td> int(11) </td> <td> int(11) </td>
+  </tr>
+</table>
+   
 
 ### pictures
 
@@ -173,12 +210,27 @@ Here is the list and schema of all the tables
 
 <table>
     <tr>
-       <th> profileID </th> <th> userID </th> <th> fullName </th> <th> email </th> <th> profileType </th> <th> campusCode </th> <th> homeTown </th> <th> course </th> <th> subject </th> <th> year </th> <th> dobDay </th> <th> dobMonth </th> <th> dobYear </th> <th> lastInstitute </th> <th> areaInterest </th> <th> fieldExpertise </th> <th> favoritePlace </th> <th> profileStatement </th> <th>currentLearning </th> <th> currentReading </th> <th> q1 </th> <th> q2 </th> <th> q3 </th> <th> q4 </th> <th> q5 </th> <th> projected </th> <th> ratings </th> <th> raters </th> <th> averageRatings </th> <th> rank </th> <th> peopleInterested </th>
+       <th> profileID </th> <th> userID </th> <th> fullName </th> <th> email </th> <th> profileType </th> <th> campusCode </th> <th> homeTown </th> <th> course </th> 
     </tr>
     <tr>
-       <td> int(11) </td> <td> int(11) </td> <td> varchar(23) </td> <td> varchar(60) </td> <td> varchar(11) </td> <td> varchar(7) </td> <td> varchar(50) </td> <td> varchar(10) </td> <td> tinytext </td> <td> varchar(10) </td> <td> varchar(3) </td> <td> varchar(10) </td> <td>  varchar(4) </td> <td > tinytext </td> <td> mediumtext </td> <td> mediumtext </td> <td> mediumtext </td> <td> varchar(140) </td> <td> mediumtext </td>  <td> tinytext </td> <td> mediumtext </td> <td> mediumtext </td><td> mediumtext </td><td> mediumtext </td><td> mediumtext </td> <td> int(1) </td> <td> int(11) </td> <td> float(2,1) </td> <td> int(11) </td> <td> int(11) </td>
+       <td> int(11) </td> <td> int(11) </td> <td> varchar(23) </td> <td> varchar(60) </td> <td> varchar(11) </td> <td> varchar(7) </td> <td> varchar(50) </td> <td> varchar(10) </td> 
 
     </tr>   
+</table>
+
+<th> subject </th> <th> year </th> <th> dobDay </th> <th> dobMonth </th> <th> dobYear </th> <th> lastInstitute </th> <th> areaInterest </th> <th> fieldExpertise </th> <th> favoritePlace </th> 
+<td> tinytext </td> <td> varchar(10) </td> <td> varchar(3) </td> <td> varchar(10) </td> <td>  varchar(4) </td> <td > tinytext </td> <td> mediumtext </td> <td> mediumtext </td> <td> mediumtext </td> 
+
+
+<table>
+<tr><th> profileStatement </th> <th>currentLearning </th> <th> currentReading </th> <th> q1 </th> <th> q2 </th> <th> q3 </th> <th> q4 </th> <th> q5 </th> <th> projected </th> </tr>
+<tr><td> varchar(140) </td> <td> mediumtext </td>  <td> tinytext </td> <td> mediumtext </td> <td> mediumtext </td><td> mediumtext </td><td> mediumtext </td><td> mediumtext </td> <td> int(1) </td></tr> 
+</table>
+
+
+<table>
+ <tr><th> ratings </th> <th> raters </th> <th> averageRatings </th> <th> rank </th> <th> peopleInterested </th></tr>
+ <tr><td> int(11) </td> <td> int(11) </td> <td> float(2,1) </td> <td> int(11) </td> <td> int(11) </td> </tr>
 </table>
 
 ### profile_visit
@@ -227,9 +279,8 @@ Here is the list and schema of all the tables
 
 ## Second Server
 
-Second server contains all the information matrix of stone. It relatively smaller and less busy
-server than the first.
-I will soon push it details.
+Second server contains all the information matrix of stone. It is relatively smaller and less busy
+server than the first. ** Check the second markdown file** in this directory.
 
 
 > Copyright 2012 Krishna Murti
