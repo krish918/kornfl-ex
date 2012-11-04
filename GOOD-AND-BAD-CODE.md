@@ -49,5 +49,10 @@ these two wonderful languages. For now, a typical `connection string` in `ext/my
         $row = $res->fetch_assoc();
         echo $row['mysqliBenefit'];
 
+##Comment
+
+Please comment on commits which is a tab between files and branches tab. CLick on it, and you can see whole commit history.
+Comment on a particular commit, if you have questions, queries or want to report/advise something. It will start
+a very useful discussion.
 
 >Copyright 2012 Krishna Murti
